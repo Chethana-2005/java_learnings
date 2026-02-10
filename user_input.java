@@ -25,7 +25,7 @@ class user_input_float{
     }
 }
 
-class addition of two numbers{
+class addition_of_two_numbers{
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter first number:");
