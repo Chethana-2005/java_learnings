@@ -5,6 +5,8 @@ class type_casting{
         Scanner scn = new Scanner(System.in);
         int a = scn.nextInt();
         float b = a;
-        
+
+        Integer c = 10;
+
     }
 }

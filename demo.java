@@ -1,0 +1,43 @@
+
+class demo {
+    public static void main(String[] args) {
+
+        int num1 = 5;
+        int num2 = 6;
+        if(num1>num2)
+        {
+            System.out.println(num1+" is greater than "+num2);
+        }
+        else
+        {
+            System.out.println(num1+" is not greater than "+num2);
+        }
+    }
+}
+
+class demo2{
+    public static void main(String[] args) {
+        String[] playlists1 = new String[3];
+        playlists1[0]= "song. one";
+        System.out.println(playlists1[0]);
+        playlists1[1] = "song2";
+        System.out.println(playlists1[1]);
+    }
+}
+
+class ArrayMax{
+    public static void main(String[] args) {
+        int[] arr = {10,30,60,80};
+
+        arr[1]=10;
+        int target=30;
+        int max=0;
+        for(int i = 0;i<arr.length;i++){
+            if(arr[i]>target){
+                max=arr[i];
+            }
+        }
+        System.out.println("max:"+max);
+
+    }
+}

@@ -25,13 +25,17 @@ class Example1 {
  }   
 
  class Example5 {
-    static void staticMethod() {
+    public static void staticMethod() {
         System.out.println("I am static");
     }
 
     void instanceMethod() {
-        System.out.println
+        System.out.println("I am instance");
     }
+    public static void main(String[] args) {
+        staticMethod();
 
-    public 
+        Example5 obj = new Example5();
+        obj.instanceMethod();
+    }
  }
